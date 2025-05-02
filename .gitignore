@@ -4,6 +4,7 @@ Desktop.ini
 Thumbs.db
 .Spotlight-V100
 .Trashes
+.vscode
 # Variables de entorno
 .env
 # Directorios de instalación y caché
