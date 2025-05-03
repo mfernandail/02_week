@@ -4,13 +4,18 @@
 
 ### This week I dive deeper into CSS (Box Model, display) and JavaScript by manipulating the DOM and events, building an interactive card to apply these concepts.
 
-✅ Basic HTML
+✅ HTML
 
+- SEO
+- Correct tags for different types
 
 ✅ Basic CSS
 
+- Display types
 
 ✅ JavaScript
+
+- DOM introduction
 
 ## 💻 Mini project of the week:
 

@@ -17,30 +17,40 @@
 	<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-	<header>
-		<h1>Week number two</h1>
-		<h2>María Fernanda | Full Stack Developer in Progress</h2>
-		<p>
-			Step by step, line by line — becoming a Full Stack Developer in one
-			year.
-		</p>
-	</header>
 
-	<article>
-		<img src="/images/html.png" alt="HTML logo">
-		<h2>Learning semantic HTML</h2>
-		<p>
-			This week I learned about semantic HTML and the importance of using the correct tags to structure a web page.
-			I understood that using elements, not only improves the readability of the code, but also enhances accessibility, SEO, and how browsers and search engines interpret the site.
-		</p>
-		<p>
-			I also learned about the importance of using the correct tags for different types of content, such as headings, paragraphs, lists, and links.
-			This helps to create a clear and organized structure for the page, making it easier for users to navigate and understand the content.
-		<button onclick="alert('Hello, world!')">Click me!</button>
-	</article>
+  <div class="wrapper">
 
-	<footer>
-		<p>2025 - Maria Fernanda</p>
-	</footer>
+    <header>
+      <h1>Week number two</h1>
+      <h2>María Fernanda | Full Stack Developer in Progress</h2>
+      <p>
+        Step by step, line by line — becoming a Full Stack Developer in one
+        year.
+      </p>
+    </header>
+
+    <div class="section__carg">
+
+      <article class="card">
+        <img class="card__img" src="/images/html.png" alt="HTML logo">
+        <h2 class="card__title">Learning semantic HTML</h2>
+        <p class="card__description">
+          This week I learned about semantic HTML and the importance of using the correct tags to structure a web page.
+          I understood that using elements, not only improves the readability of the code, but also enhances accessibility, SEO, and how browsers and search engines interpret the site.
+        </p>
+        <p class="card__description_secondary">
+          I also learned about the importance of using the correct tags for different types of content, such as headings, paragraphs, lists, and links.
+          This helps to create a clear and organized structure for the page, making it easier for users to navigate and understand the content.
+        </p>
+        <button class="card__button" onclick="alert('Hello, world!')">Click me!</button>
+      </article>
+      
+    </div>
+
+    <footer>
+      <p>2025 - Maria Fernanda</p>
+    </footer>
+
+  </div>
 </body>
 </html>
