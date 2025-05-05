@@ -6,17 +6,23 @@
 
 ✅ HTML
 
-- SEO
-- Correct tags for different types
+- Improved structure for accessibility and SEO.
+- Improved structure for accessibility and SEO.
 
 ✅ Basic CSS
 
-- Display types
+- Display types like `block`, and `inline-block`.
+- Styled the card with colors, borders, centered elements, and `:hover` effects.
+- Applied clean visual design practices.
 
 ✅ JavaScript
 
-- DOM introduction
+- Introduction to the DOM: selecting elements, handling events, and manipulation.
+- Show/hide content with button clicks.
+- Add and remove classes dynamically using `classList`.
 
 ## 💻 Mini project of the week:
+
+I built an interactive card using semantic HTML, custom CSS styling, and JavaScript to add behavior. A button toggles between two descriptive paragraphs. I also added styles like centered layout, colors, rounded borders, and hover effects.
 
 #YouCanDoIt #100DaysOfCode #FullStack #LinkedInLearningJourney
