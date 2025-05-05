@@ -30,8 +30,6 @@
       </p>
     </header>
 
-    <div class="section__carg">
-
       <article class="card">
         <img class="card__img" src="/images/html.png" alt="HTML logo">
         <h2 class="card__title">Learning semantic HTML</h2>
@@ -39,19 +37,28 @@
           This week I learned about semantic HTML and the importance of using the correct tags to structure a web page.
           I understood that using elements, not only improves the readability of the code, but also enhances accessibility, SEO, and how browsers and search engines interpret the site.
         </p>
-        <p class="card__description_secondary">
+        <p class="card__description_secondary hideP">
           I also learned about the importance of using the correct tags for different types of content, such as headings, paragraphs, lists, and links.
           This helps to create a clear and organized structure for the page, making it easier for users to navigate and understand the content.
         </p>
-        <button class="card__button" onclick="alert('Hello, world!')">Click me!</button>
+        <button onclick="showDescription()" class="card__button">Show more</button>
       </article>
 
-    </div>
 
     <footer>
       <p>2025 - Maria Fernanda</p>
     </footer>
 
   </div>
+
+  <script>
+    function showDescription() {
+      const principalDescription = document.querySelector(".card__description")
+      const secondaryDescription = document.querySelector(".card__description_secondary")
+
+      principalDescription.classList.toggle("hideP")
+      secondaryDescription.classList.toggle("hideP")
+    }
+  </script>
 </body>
 </html>
