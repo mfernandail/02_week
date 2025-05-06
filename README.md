@@ -7,7 +7,6 @@
 ✅ HTML
 
 - Improved structure for accessibility and SEO.
-- Improved structure for accessibility and SEO.
 
 ✅ Basic CSS
 
